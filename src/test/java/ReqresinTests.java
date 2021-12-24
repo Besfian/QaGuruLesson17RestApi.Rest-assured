@@ -13,7 +13,6 @@ public class ReqresinTests {
     static void prepare() {
         RestAssured.baseURI = "https://reqres.in/";
     }
-
     @Test
     void loginSuccessful() {
         String data = "{\"email\": \"eve.holt@reqres.in\",\"password\": \"pistol\" }";
